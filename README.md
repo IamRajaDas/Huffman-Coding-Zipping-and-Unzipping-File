@@ -1,10 +1,10 @@
-# Huffman_Coding_Zipping_and_Unzipping_File
+## Huffman_Coding_Zipping_and_Unzipping_File
 
-# Description:
+## Description:
 
 In this C++ project, we have developed a comprehensive program for Huffman coding and decoding, leveraging object-oriented programming (OOP) principles. Huffman coding, a fundamental technique in data compression, utilizes a greedy algorithm to create an optimal variable-length prefix encoding for a given set of characters based on their frequencies. This encoding allows for efficient data compression and decompression.
 
-# Key Components:
+## Key Components:
 
 # Object-Oriented Approach:
 We adopted an object-oriented approach to design and implement the Huffman coding system. This approach encapsulates functionality into classes, promoting modularity, code reusability, and maintainability.
@@ -21,7 +21,7 @@ We employed C++ vectors to store and manage character frequencies, as well as to
 # Queue:
 A queue data structure is utilized to keep track of the intermediate Huffman trees during the construction process within the HuffmanTree class. This ensures that the merging of nodes is done in the correct order, facilitating the creation of the final Huffman tree.
 
-# Functionality:
+## Functionality:
 
 # Encapsulation:
 The project encapsulates the encoding and decoding functionality within the HuffmanCoder class, making it easy to use and maintain. Clients of the class can simply create an instance and call methods to encode or decode data.
@@ -29,7 +29,7 @@ The project encapsulates the encoding and decoding functionality within the Huff
 # Dynamic Memory Management:
 C++'s dynamic memory allocation and deallocation capabilities are employed to manage the creation and destruction of Huffman tree nodes, optimizing memory usage.
 
-# Benefits:
+## Benefits:
 
 # OOP Principles: 
 By applying OOP concepts such as encapsulation, inheritance, and abstraction, the project achieves a well-structured and maintainable codebase.
